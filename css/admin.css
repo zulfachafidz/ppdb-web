@@ -1,0 +1,105 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Quicksand', sans-serif;
+} 
+body {
+    background-color: #fff;
+}
+.box-formulir{
+    width: 50%;
+    margin: 100px auto;
+    border: 1px solid;
+    background-color: #fff;
+}
+.box {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    box-sizing: border-box;
+    margin:5px 0 25px;
+}
+.table-form{
+    width: 100%;
+}
+.table-form tr td:nth-child(1) {
+    width: 30%;
+}
+.input-control{
+    padding: 5px 30px;
+    font-size: 16px;
+    margin: 5px 0;
+}
+.btn-daftar{
+    padding: 10px 17px;
+    background-color: #4A99D7;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+}
+.btn-daftar:hover{
+    cursor: pointer;
+    background-color: #4881AE;
+}
+.btn-cetak{
+    display: inline-block;
+    padding: 10px 17px;
+    color: #fff;
+    background-color: #Ff5733;
+    margin-top: 5px;
+}
+.table-data{
+    width: 100%;
+    margin-top: 10px;
+}
+.table-data tr{
+    height: 30px;
+}
+.table-data tr td:nth-child(1){
+    width: 30%;
+}
+header {
+    background-color: #fff;
+}
+header::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+header h1 {
+    padding: 10px 20px;
+    display: inline-block;
+    float: left;
+}
+header ul{
+    float: left;
+    border-color: aqua;
+}
+header ul li{
+    padding: 25px;
+    display: inline-block;
+    background-color: #7b74e69c;
+}
+a {
+    text-decoration:none;
+}
+.content {
+    width:90%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin:50px auto;
+}
+.table {
+    width:100%;
+    border-collapse: collapse;
+    border:1px solod #ddd;
+}
+.table tr {
+    height: 30px;
+}
+.table tr td {
+    padding: 5px 10px;
+}
+.table tr td:nth-child(1) {
+    text-align: center;
+}

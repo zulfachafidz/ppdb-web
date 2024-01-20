@@ -1,0 +1,26 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Quicksand', sans-serif;
+} 
+body {
+    background-color: white;
+}
+.box {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    box-sizing: border-box;
+    margin:10px 0 40px;
+}
+.table-data{
+    width: 100%;
+    margin-top: 25px;
+    margin-left: 20%;
+}
+.table-data tr{
+    height: 30px;
+}
+.table-data tr td:nth-child(1){
+    width: 30%;
+}
