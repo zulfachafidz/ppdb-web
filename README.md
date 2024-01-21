@@ -25,26 +25,26 @@ Website PPDB (Penerimaan Peserta Didik Baru) adalah proyek berbasis web yang dib
 1. Clone repositori ini:
 
     ```bash
-    git clone https://github.com/username/website-ppdb.git
+    git clone https://github.com/zulfachafidz/ppdb-web.git
     ```
 
 2. Pastikan PHP dan MySQL sudah terinstal di komputer Anda.
 
-3. Impor skema basis data dari file `database.sql` ke dalam database MySQL Anda.
+3. Impor skema basis data dari file `db_psb.sql` ke dalam database MySQL Anda.
 
-4. Sesuaikan koneksi database pada file `includes/db_connection.php` dengan informasi koneksi MySQL Anda.
+4. Sesuaikan koneksi database pada file `includes/koneksi.php` dengan informasi koneksi MySQL Anda.
 
 5. Buka proyek di browser:
 
     ```
-    http://localhost/website-ppdb
+    http://localhost/ppdb-web
     ```
 
 ## Penggunaan
 
 1. Calon peserta didik mengisi formulir pendaftaran melalui halaman pendaftaran.
 
-2. Admin dapat mengelola data pendaftar melalui halaman admin_dashboard.php.
+2. Admin dapat mengelola data pendaftar melalui halaman admin.php.
 
 3. Setelah pendaftaran, calon peserta dapat melihat hasil pendaftaran dan mencetak bukti pendaftaran melalui halaman yang ditentukan.
 
