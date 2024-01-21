@@ -1,6 +1,6 @@
 # Website PPDB
 
-![PPDB Web Logo](link_to_logo_image)
+![PPDB Web Logo](https://github.com/zulfachafidz/ppdb-web/blob/main/img/landing.png)
 
 ## Deskripsi
 
